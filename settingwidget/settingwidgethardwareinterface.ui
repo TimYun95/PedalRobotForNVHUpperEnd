@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingWidgetHardwareInterface</class>
+ <widget class="QWidget" name="SettingWidgetHardwareInterface">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>818</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>30</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_motor">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>电机P</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_axis">
+       <property name="text">
+        <string>轴</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>6#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>2#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>3#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>5#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>4#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_encoder">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>编码器K</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_1">
+       <property name="text">
+        <string>1#</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="label_optSwitch">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>光电S</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort1">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort1"/>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort1"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort2"/>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort3"/>
+     </item>
+     <item row="5" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort4"/>
+     </item>
+     <item row="6" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort5"/>
+     </item>
+     <item row="7" column="2">
+      <widget class="QLineEdit" name="lineEdit_motorPort6"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort2"/>
+     </item>
+     <item row="4" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort3"/>
+     </item>
+     <item row="5" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort4"/>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort5"/>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLineEdit" name="lineEdit_encoderPort6"/>
+     </item>
+     <item row="3" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort2"/>
+     </item>
+     <item row="4" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort3"/>
+     </item>
+     <item row="5" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort4"/>
+     </item>
+     <item row="6" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort5"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLineEdit" name="lineEdit_optSwitchPort6"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>URI</class>
+ <widget class="QWidget" name="URI">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1315</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>KaiTi</family>
+    <pointsize>26</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>URI</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_20">
+   <item>
+    <widget class="QTabWidget" name="tabWidget1">
+     <property name="font">
+      <font>
+       <pointsize>30</pointsize>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>3</number>
+     </property>
+     <widget class="QWidget" name="tab1">
+      <attribute name="title">
+       <string> 手动 </string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>4</number>
+       </property>
+       <property name="topMargin">
+        <number>4</number>
+       </property>
+       <property name="rightMargin">
+        <number>4</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
+       <property name="spacing">
+        <number>3</number>
+       </property>
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget4">
+         <property name="currentIndex">
+          <number>2</number>
+         </property>
+         <widget class="QWidget" name="tab11">
+          <attribute name="title">
+           <string>当前位置</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="2" column="1">
+            <widget class="QPushButton" name="pushButton_softstop">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>紧急停止</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="pushButton_origin">
+             <property name="minimumSize">
+              <size>
+               <width>400</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>返回原点</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0" rowspan="5">
+            <widget class="QGroupBox" name="groupBox">
+             <property name="title">
+              <string>末端坐标</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_7">
+                <item>
+                 <widget class="QLabel" name="label">
+                  <property name="text">
+                   <string>X:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_x">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>41</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>Y:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_y">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="text">
+                   <string>Z:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit_z">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="focusPolicy">
+                   <enum>Qt::NoFocus</enum>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                  </property>
+                  <property name="readOnly">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_info">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QPushButton" name="pushButton_ShutDown">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>120</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>关闭系统</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab12">
+          <attribute name="title">
+           <string>手动调节</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_23">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_32">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_17">
+               <item>
+                <spacer name="verticalSpacer">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlXMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>X-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_2">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlYMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Y-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_3">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlZMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Z-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_4">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_7">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_18">
+               <item>
+                <spacer name="verticalSpacer_5">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlXPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>X+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_6">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlYPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Y+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_7">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlZPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>Z+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_2">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Preferred</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>80</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_21">
+               <item>
+                <spacer name="verticalSpacer_9">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRXMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RX-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_10">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRYMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RY-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_11">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRZMinus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RZ-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_12">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_5">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Fixed</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_22">
+               <item>
+                <spacer name="verticalSpacer_13">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRXPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RX+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_14">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRYPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RY+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_15">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_manualControlRZPlus">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>RZ+</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <spacer name="verticalSpacer_16">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer_6">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeType">
+                <enum>QSizePolicy::Preferred</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>80</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+             <item>
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="4" column="0" rowspan="3">
+                <widget class="QSlider" name="verticalSlider_manualSpeed">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>90</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>1</number>
+                 </property>
+                 <property name="maximum">
+                  <number>3</number>
+                 </property>
+                 <property name="pageStep">
+                  <number>1</number>
+                 </property>
+                 <property name="value">
+                  <number>2</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QLabel" name="label_37">
+                 <property name="text">
+                  <string>中速</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="4" column="1">
+                <widget class="QLabel" name="label_38">
+                 <property name="text">
+                  <string>高速</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QLabel" name="label_36">
+                 <property name="text">
+                  <string>低速</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="1" column="0" colspan="2">
+                <widget class="QComboBox" name="comboBox_manualMethod">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>点动</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>联动</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item row="3" column="0" colspan="2">
+                <widget class="QLabel" name="label_35">
+                 <property name="text">
+                  <string>速  度</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item row="0" column="0" colspan="2">
+                <spacer name="verticalSpacer_17">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item row="2" column="0" colspan="2">
+                <spacer name="verticalSpacer_18">
+                 <property name="orientation">
+                  <enum>Qt::Vertical</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Fixed</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>20</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab13">
+          <attribute name="title">
+           <string>单轴控制</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <layout class="QGridLayout" name="gridLayout_3" columnstretch="1,7,1,1,2,1">
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_singleAxis3">
+               <property name="text">
+                <string>3.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_singleAxis2">
+               <property name="text">
+                <string>2.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal1">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta5">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal5">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_2">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis2">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis2">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis2">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="3">
+              <widget class="QLabel" name="label_theta5">
+               <property name="text">
+                <string>θ5:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis2">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="3">
+              <widget class="QLabel" name="label_theta2">
+               <property name="text">
+                <string>θ2:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal2">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal3">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis3">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="3">
+              <widget class="QLabel" name="label_theta3">
+               <property name="text">
+                <string>θ3:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_3">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis3">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis3">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis3">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_singleAxis4">
+               <property name="text">
+                <string>4.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta3">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_4">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis4">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis4">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis4">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="3" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta4">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="3">
+              <widget class="QLabel" name="label_theta4">
+               <property name="text">
+                <string>θ4:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis4">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal4">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_singleAxis5">
+               <property name="text">
+                <string>5.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_5">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis5">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis5">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis5">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="4" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis5">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_singleAxis1">
+               <property name="text">
+                <string>1.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="3">
+              <widget class="QLabel" name="label_theta1">
+               <property name="text">
+                <string>θ1:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis1">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis1">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis1">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>1</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis1">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="5" column="5">
+              <widget class="QLineEdit" name="lineEdit_inSignal6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>58</width>
+                 <height>58</height>
+                </size>
+               </property>
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="4">
+              <widget class="QLineEdit" name="lineEdit_theta6">
+               <property name="focusPolicy">
+                <enum>Qt::NoFocus</enum>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+               <property name="readOnly">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="3">
+              <widget class="QLabel" name="label_theta6">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="text">
+                <string>θ6:</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="2">
+              <widget class="QPushButton" name="pushButton_stopAxis6">
+               <property name="text">
+                <string>停止</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="1">
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QPushButton" name="pushButton_minusAxis6">
+                 <property name="text">
+                  <string>-</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSlider" name="horizontalSlider_axis6">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="minimumSize">
+                  <size>
+                   <width>240</width>
+                   <height>0</height>
+                  </size>
+                 </property>
+                 <property name="minimum">
+                  <number>-50</number>
+                 </property>
+                 <property name="maximum">
+                  <number>50</number>
+                 </property>
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_plusAxis6">
+                 <property name="text">
+                  <string>+</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item row="5" column="0">
+              <widget class="QLabel" name="label_singleAxis6">
+               <property name="text">
+                <string>6.</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_2">
+          <attribute name="title">
+           <string>输出控制</string>
+          </attribute>
+          <layout class="QHBoxLayout" name="horizontalLayout_29">
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_28">
+             <item>
+              <layout class="QVBoxLayout" name="verticalLayout_4">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QLabel" name="label_18">
+                   <property name="text">
+                    <string>1.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_outCtrl1">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>打开</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_outCtrl1">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_24">
+                 <item>
+                  <widget class="QLabel" name="label_19">
+                   <property name="text">
+                    <string>2.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_outCtrl2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>打开</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_outCtrl2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_25">
+                 <item>
+                  <widget class="QLabel" name="label_20">
+                   <property name="text">
+                    <string>3.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_outCtrl3">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>打开</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_outCtrl3">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_26">
+                 <item>
+                  <widget class="QLabel" name="label_21">
+                   <property name="text">
+                    <string>4.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_outCtrl4">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>打开</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_outCtrl4">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_27">
+                 <item>
+                  <widget class="QLabel" name="label_22">
+                   <property name="text">
+                    <string>5.</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="pushButton_outCtrl5">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>16777215</width>
+                     <height>60</height>
+                    </size>
+                   </property>
+                   <property name="text">
+                    <string>打开</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="lineEdit_outCtrl5">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="minimumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>58</width>
+                     <height>58</height>
+                    </size>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <spacer name="horizontalSpacer">
+               <property name="orientation">
+                <enum>Qt::Horizontal</enum>
+               </property>
+               <property name="sizeHint" stdset="0">
+                <size>
+                 <width>40</width>
+                 <height>20</height>
+                </size>
+               </property>
+              </spacer>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab2">
+      <attribute name="title">
+       <string> 执行 </string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget_2">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab21">
+          <attribute name="title">
+           <string>通用执行</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="2" column="1">
+            <widget class="QPushButton" name="pushButton_continous">
+             <property name="text">
+              <string>连续执行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QPushButton" name="pushButton_startArc">
+             <property name="text">
+              <string>开始执行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPushButton" name="pushButton_startToWork">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>开始工作</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QPushButton" name="pushButton_stopWeld">
+             <property name="text">
+              <string>结束执行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QPushButton" name="pushButton_chooseSection">
+             <property name="text">
+              <string>选段执行</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="pushButton_plusSpeed">
+             <property name="text">
+              <string>增大速度</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QPushButton" name="pushButton_pause">
+             <property name="text">
+              <string>暂停</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="pushButton_minusSpeed">
+             <property name="text">
+              <string>减小速度</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <widget class="QPushButton" name="pushButton_chooseFile">
+             <property name="text">
+              <string>选择文件</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="title">
+          <string> 运动状态</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_11">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_18">
+            <item>
+             <widget class="QLabel" name="label_29">
+              <property name="text">
+               <string>运动进程:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_actionStatus">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <widget class="QLabel" name="label_30">
+              <property name="text">
+               <string>运动速度:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_speed">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QLabel" name="label_31">
+              <property name="text">
+               <string>运动状态:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_gunState">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_21">
+            <item>
+             <widget class="QLabel" name="label_32">
+              <property name="text">
+               <string>该段代号:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_sectionNo">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_22">
+            <item>
+             <widget class="QLabel" name="label_33">
+              <property name="text">
+               <string>该段类型:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_sectionType">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_23">
+            <item>
+             <widget class="QLabel" name="label_34">
+              <property name="text">
+               <string>连续次数:</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lineEdit_times">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="focusPolicy">
+               <enum>Qt::NoFocus</enum>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab3">
+      <attribute name="title">
+       <string> 示教 </string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_16">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_5">
+           <item>
+            <widget class="QPushButton" name="pushButton_startTeach">
+             <property name="text">
+              <string>开始
+示教</string>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_stopTeach">
+             <property name="text">
+              <string>结束
+示教</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_trans">
+             <property name="text">
+              <string>插入
+过渡点</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_suspend">
+             <property name="text">
+              <string>插入
+等待点</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_joint">
+             <property name="text">
+              <string>插入
+连接符</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_plc">
+             <property name="text">
+              <string>PLC</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_9">
+           <item>
+            <widget class="QTabWidget" name="tabWidget3">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>471</width>
+               <height>261</height>
+              </size>
+             </property>
+             <property name="currentIndex">
+              <number>0</number>
+             </property>
+             <widget class="QWidget" name="tab31">
+              <attribute name="title">
+               <string>直线</string>
+              </attribute>
+              <layout class="QHBoxLayout" name="horizontalLayout_31">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_30">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_12">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_line1">
+                     <property name="text">
+                      <string>记录第一点</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_line2">
+                     <property name="text">
+                      <string>记录第二点</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_13">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_clear1">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>后退</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QCheckBox" name="checkBox_v1">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>添加摆动</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab32">
+              <attribute name="title">
+               <string>弧线</string>
+              </attribute>
+              <layout class="QHBoxLayout" name="horizontalLayout_35">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_34">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_14">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_arc1">
+                     <property name="text">
+                      <string>记录第一点</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_arc2">
+                     <property name="text">
+                      <string>记录第二点</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_arc3">
+                     <property name="text">
+                      <string>记录第三点</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_15">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_clear2">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>后退</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QCheckBox" name="checkBox_v2">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>添加摆动</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab33">
+              <attribute name="title">
+               <string>连续</string>
+              </attribute>
+              <layout class="QHBoxLayout" name="horizontalLayout_37">
+               <item>
+                <layout class="QHBoxLayout" name="horizontalLayout_36">
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_16">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_conFirst">
+                     <property name="text">
+                      <string>记录第一点</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_conNext">
+                     <property name="text">
+                      <string>添加后续点[0]</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_conFinish">
+                     <property name="text">
+                      <string>结束连续曲线</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QVBoxLayout" name="verticalLayout_19">
+                   <item>
+                    <widget class="QPushButton" name="pushButton_clear3">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>后退</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QCheckBox" name="checkBox_v3">
+                     <property name="enabled">
+                      <bool>false</bool>
+                     </property>
+                     <property name="text">
+                      <string>添加摆动</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QWidget" name="tab34">
+              <attribute name="title">
+               <string>点</string>
+              </attribute>
+              <layout class="QHBoxLayout" name="horizontalLayout_40">
+               <item>
+                <layout class="QVBoxLayout" name="verticalLayout_24">
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_38">
+                   <item>
+                    <spacer name="horizontalSpacer_3">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton_dot">
+                     <property name="text">
+                      <string>记录点位置</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <spacer name="horizontalSpacer_4">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>40</width>
+                       <height>20</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_39">
+                   <item>
+                    <widget class="QLabel" name="label_27">
+                     <property name="text">
+                      <string>点段停顿时间(ms):</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLineEdit" name="lineEdit_dotTime"/>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </item>
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_11">
+               <item>
+                <widget class="QLabel" name="label_teachWeldSpeed">
+                 <property name="text">
+                  <string>运行速度：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_weldSpeed">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLabel" name="label_28">
+                 <property name="text">
+                  <string>摆动类型:</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_12">
+               <item>
+                <widget class="QLabel" name="label_teachFrequencyFB">
+                 <property name="text">
+                  <string>前后摆频：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_frequencyFB">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_vibrationType">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                 <item>
+                  <property name="text">
+                   <string>月牙型</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>Z字型</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_13">
+               <item>
+                <widget class="QLabel" name="label_teachAmplitudeFB">
+                 <property name="text">
+                  <string>前后摆长：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_amplitudeFB">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_14">
+               <item>
+                <widget class="QLabel" name="label_teachFrequencyLR">
+                 <property name="text">
+                  <string>左右摆频：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_frequencyLR">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_15">
+               <item>
+                <widget class="QLabel" name="label_teachAmplitudeLR">
+                 <property name="text">
+                  <string>左右摆长：</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_amplitudeLR">
+                 <property name="enabled">
+                  <bool>false</bool>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QPushButton" name="pushButton_delete">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>删除
+示教</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_addSection">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>插入
+示教</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_attribute">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>设置
+参数</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_undo">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>撤销</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_redo">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>恢复</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_8">
+           <item>
+            <widget class="QListWidget" name="listWidget_sections"/>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_homeTimes">
+             <property name="enabled">
+              <bool>false</bool>
+             </property>
+             <property name="text">
+              <string>回原次数</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_editTeach">
+             <property name="text">
+              <string>修改示教</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab4">
+      <attribute name="title">
+       <string> 设置 </string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="currentIndex">
+          <number>0</number>
+         </property>
+         <widget class="QWidget" name="tab">
+          <attribute name="title">
+           <string>参数设置</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0">
+            <widget class="QListWidget" name="listWidget_settings">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>100</width>
+               <height>16777215</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <layout class="QVBoxLayout" name="verticalLayout_10">
+             <item>
+              <widget class="QWidget" name="widget_settings" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QGridLayout" name="gridLayout_9">
+                <item row="0" column="0">
+                 <layout class="QVBoxLayout" name="verticalLayout_settingWidget"/>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_17">
+               <item>
+                <widget class="QPushButton" name="pushButton_changePassword">
+                 <property name="text">
+                  <string>更换密码</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_saveSettings">
+                 <property name="text">
+                  <string>确定保存</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_exitSettings">
+                 <property name="text">
+                  <string>登录</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_3">
+          <attribute name="title">
+           <string> 日 志 </string>
+          </attribute>
+          <layout class="QHBoxLayout" name="horizontalLayout_41">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_33">
+               <item>
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>40</width>
+                   <height>20</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_saveLogger">
+                 <property name="text">
+                  <string>保存日志</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_readLogger">
+                 <property name="text">
+                  <string>读取日志</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_enableLogger">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <property name="text">
+                  <string>启用日志</string>
+                 </property>
+                 <property name="checkable">
+                  <bool>true</bool>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_section">
+                 <item>
+                  <property name="text">
+                   <string>全过程</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>过渡段</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>工作段</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_graph">
+                 <item>
+                  <property name="text">
+                   <string>error</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>delta</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>theta</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>targetTheta</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>matrix</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>targetMatrix</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>pulse</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>time</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+               <item>
+                <widget class="QComboBox" name="comboBox_axisNum">
+                 <item>
+                  <property name="text">
+                   <string>1</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>2</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>3</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>4</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>5</string>
+                  </property>
+                 </item>
+                 <item>
+                  <property name="text">
+                   <string>6</string>
+                  </property>
+                 </item>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_2DGraph" native="true">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>50</horstretch>
+                 <verstretch>40</verstretch>
+                </sizepolicy>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_26">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_2DGraph"/>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_minusAxis3</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1206</x>
+     <y>264</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis2</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1157</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>948</x>
+     <y>529</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>962</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis6</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>949</x>
+     <y>613</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis3</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1228</x>
+     <y>250</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis5</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-136</x>
+     <y>512</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis4</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1196</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis4</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>951</x>
+     <y>399</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>441</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis1</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1260</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis5</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1211</x>
+     <y>478</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>951</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis2</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1144</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>266</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis5</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>541</x>
+     <y>597</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis6</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>412</x>
+     <y>596</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>946</x>
+     <y>384</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>951</x>
+     <y>489</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis1</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>44</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis4</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>342</x>
+     <y>600</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis3</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>-3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis5</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>503</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>949</x>
+     <y>279</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis6</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-221</x>
+     <y>617</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis4</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1219</x>
+     <y>422</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis1</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1260</x>
+     <y>122</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis6</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-224</x>
+     <y>543</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis4</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-170</x>
+     <y>417</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis1</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>2</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>404</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider_axis2</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>449</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>601</x>
+     <y>8</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>951</x>
+     <y>156</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis3</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-43</x>
+     <y>301</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis3</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-63</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis1</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1096</x>
+     <y>114</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>952</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis2</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>949</x>
+     <y>130</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlXMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis6</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1209</x>
+     <y>620</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis6</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>707</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1202</x>
+     <y>580</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis2</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1089</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis2</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>311</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-9</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_stopAxis3</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>784</x>
+     <y>410</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>950</x>
+     <y>241</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>951</x>
+     <y>210</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis5</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-159</x>
+     <y>464</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_minusAxis5</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1237</x>
+     <y>496</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlZPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlYPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>321</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>956</x>
+     <y>457</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis1</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1070</x>
+     <y>46</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_plusAxis4</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>689</x>
+     <y>509</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-57</x>
+     <y>392</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1130</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1130</x>
+     <y>216</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1129</x>
+     <y>254</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1131</x>
+     <y>177</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRXPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1135</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>415</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1133</x>
+     <y>456</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1133</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRYPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1133</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZMinus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1135</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZMinus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1136</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZMinus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>590</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1136</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZPlus</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1137</x>
+     <y>668</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZPlus</sender>
+   <signal>pressed()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1132</x>
+     <y>696</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_manualControlRZPlus</sender>
+   <signal>released()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_manualControlN_released()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>771</x>
+     <y>662</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>660</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_section</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_comboBox_currentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>192</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_graph</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_comboBox_currentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>comboBox_axisNum</sender>
+   <signal>currentIndexChanged(QString)</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_comboBox_currentIndexChanged(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>130</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1</x>
+     <y>160</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_outCtrl1</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>382</x>
+     <y>186</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>5</x>
+     <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_outCtrl2</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>2</x>
+     <y>312</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_outCtrl3</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_outCtrl4</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>262</x>
+     <y>585</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-1</x>
+     <y>555</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_outCtrl5</sender>
+   <signal>clicked()</signal>
+   <receiver>URI</receiver>
+   <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>703</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-4</x>
+     <y>691</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ss_on_horizontalSlider_singleAxisN_valueChanged(int)</slot>
+  <slot>ss_on_pushButton_stopAxisN_clicked()</slot>
+  <slot>ss_on_pushButton_manualControlN_pressed()</slot>
+  <slot>ss_on_pushButton_manualControlN_released()</slot>
+  <slot>ss_on_pushButton_manualControlN_clicked()</slot>
+  <slot>ss_on_pushButton_stopAxisN_pressed()</slot>
+  <slot>ss_on_pushButton_stopAxisN_released()</slot>
+  <slot>ss_on_comboBox_currentIndexChanged(QString)</slot>
+  <slot>ss_on_pushButton_outCtrlN_clicked()</slot>
+ </slots>
+</ui>
